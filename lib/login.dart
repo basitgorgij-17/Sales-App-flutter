@@ -22,21 +22,21 @@ class LoginScreen extends StatelessWidget {
           child: Padding(padding: const EdgeInsets.all(17.0),
           child: Column(
             children: [
-              CircleAvatar(
+              const CircleAvatar(
                 radius: 80,
                 backgroundImage: AssetImage("assets/images/profile_image.png"),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
-              Text(
+              const Text(
                 'Welcome Back to Sales App',
                 style: TextStyle(
                     fontSize: 22,
                     color: Colors.black,
                     fontWeight: FontWeight.w600),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               TextFormField(
                   decoration: InputDecoration(
                 labelText: 'Email',
@@ -44,7 +44,7 @@ class LoginScreen extends StatelessWidget {
                 border:
                     OutlineInputBorder(borderRadius: BorderRadius.circular(20)),
               )),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               TextFormField(
                   obscureText: true,
                   decoration: InputDecoration(
@@ -53,7 +53,7 @@ class LoginScreen extends StatelessWidget {
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20)),
                   )),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
               ElevatedButton(
                   style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.deepPurple,
@@ -61,7 +61,7 @@ class LoginScreen extends StatelessWidget {
                         borderRadius: BorderRadius.circular(20),
                       )),
                   onPressed: () {},
-                  child: Text(
+                  child: const Text(
                     "Login",
                     style: TextStyle(color: Colors.white, fontSize: 14),
                   ))
