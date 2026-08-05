@@ -15,10 +15,15 @@ class SignupPage extends StatelessWidget {
           bottom: 50.0,
         ),
         child: Card(
-        color: Colors.white,
-        shape: RoundedRectangleBorder(
+           color: Colors.white,
+           shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
         ),
+          child: Container(
+            width: 400,
+            height: 700,
+            
+        child: Padding(padding: EdgeInsets.all(20.0),
         child: Column(
           children: [
             Text(
@@ -75,7 +80,7 @@ class SignupPage extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 30,
+              height: 80,
             ),
             ElevatedButton(
                 style: ElevatedButton.styleFrom(
@@ -91,6 +96,10 @@ class SignupPage extends StatelessWidget {
                 ))
           ],
         ),
+        ),
+          )
+       
+        
       ),
         )
       
