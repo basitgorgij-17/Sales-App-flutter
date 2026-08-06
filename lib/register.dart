@@ -21,7 +21,7 @@ class SignupScreen extends StatelessWidget {
            shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
         ),
-          child: Container(
+          child: SizedBox(
             width: 400,
             height: 700,
         child: Padding(padding: const EdgeInsets.all(20.0),
