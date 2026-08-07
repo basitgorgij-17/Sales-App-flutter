@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:sales_app/login.dart';
-import 'package:sales_app/profile.dart';
+import 'package:sales_app/screens/profile.dart';
 // import 'package:sales_app/register.dart';
 
 void main() {
